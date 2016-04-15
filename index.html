@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Poop on her Chest</title>
+
+        <!-- Viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Styling -->
+        <link href="semantic.min.css" rel="stylesheet" media="all">
+        <link href="style.css" rel="stylesheet" media="all">
+
+    </head>
+    <body>
+        <section class="ui container">
+
+            <div id="steps" class="ui three top attached steps" data-poop="steps">
+                <div class="step" data-poop-step="pick">
+                    <i class="female icon"></i>
+                    <div class="content">
+                        <div class="title">Pick Her</div>
+                        <div class="description">Who needs some poopin'</div>
+                    </div>
+                </div>
+                <div class="active step" data-poop-step="poop">
+                    <i class="attach icon"></i>
+                    <div class="content">
+                        <div class="title">Pick Poop</div>
+                        <div class="description">Poopylicious choices</div>
+                    </div>
+                </div>
+                <div class="disabled step" data-poop-step="combine">
+                    <i class="paint brush icon"></i>
+                    <div class="content">
+                        <div class="title">Be an artist</div>
+                        <div class="description">Poop on her chest</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ui segment" data-poop="pick">
+                <div class="ui link cards">
+                    <div class="card">
+                        <div class="image">
+                            <img src="canvas/her.jpg">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer transition visible active">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">Add Her</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ui segment" data-poop="poop">
+                <p></p>
+            </div>
+
+            <div class="ui segment" data-poop="combine">
+                <canvas>
+
+                </canvas>
+            </div>
+        </section>
+
+        <script src="script.js" defer></script>
+    </body>
+</html>

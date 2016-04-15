@@ -1,0 +1,8 @@
+#steps {
+  margin-top: 2rem;
+}
+
+.ui.card>.image, .ui.cards>.card>.image {
+  overflow: hidden; 
+  height: 290px;
+}
