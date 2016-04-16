@@ -2,7 +2,16 @@
   margin-top: 2rem;
 }
 
+#canvas {
+  margin-bottom: 2rem;
+}
+
+#canvas canvas {
+  min-height: 50rem;
+  width: 100%;
+}
+
 .ui.card>.image, .ui.cards>.card>.image {
-  overflow: hidden; 
+  overflow: hidden;
   height: 290px;
 }

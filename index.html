@@ -17,14 +17,14 @@
         <section class="ui container">
 
             <div id="steps" class="ui three top attached steps" data-poop="steps">
-                <div class="step" data-poop-step="pick">
+                <div class="active step" data-poop-step="pick">
                     <i class="female icon"></i>
                     <div class="content">
                         <div class="title">Pick Her</div>
                         <div class="description">Who needs some poopin'</div>
                     </div>
                 </div>
-                <div class="active step" data-poop-step="poop">
+                <div class="disabled step" data-poop-step="poop">
                     <i class="attach icon"></i>
                     <div class="content">
                         <div class="title">Pick Poop</div>
@@ -63,10 +63,47 @@
             </div>
 
             <div class="ui segment" data-poop="poop">
-                <p></p>
+              <div class="ui link cards">
+
+                  <div class="card">
+                      <div class="image">
+                          <img src="brush/p3.png">
+                      </div>
+                  </div>
+
+                  <div class="card">
+                      <div class="image">
+                          <img src="brush/p5.png">
+                      </div>
+                  </div>
+
+                  <div class="card">
+                      <div class="image">
+                          <img src="brush/p6.png">
+                      </div>
+                  </div>
+
+                  <div class="card">
+                      <div class="image">
+                          <img src="brush/p7.png">
+                      </div>
+                  </div>
+
+                  <div class="card">
+                      <div class="blurring dimmable image">
+                          <div class="ui dimmer transition visible active">
+                              <div class="content">
+                                  <div class="center">
+                                      <div class="ui inverted button">Add It</div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
             </div>
 
-            <div class="ui segment" data-poop="combine">
+            <div id="canvas" class="ui segment" data-poop="combine">
                 <canvas>
 
                 </canvas>
